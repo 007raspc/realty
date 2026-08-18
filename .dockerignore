@@ -1,0 +1,73 @@
+# Version control and project-only tooling
+.git
+.gitignore
+.gitattributes
+.github
+.ai
+.agents
+.codex
+AGENTS.md
+
+# Environment and credentials
+.env
+.env.*
+auth.json
+storage/*.key
+
+# Local dependencies and generated assets
+vendor
+node_modules
+public/build
+public/hot
+public/storage
+database/*.sqlite*
+
+# Laravel runtime data
+bootstrap/cache/*.php
+storage/pail
+storage/app/private/*
+storage/app/public/*
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+
+# Test and analysis output
+.phpstan.cache
+.phpunit.cache
+.phpunit.result.cache
+coverage
+test-results
+junit.xml
+
+# IDE and operating system files
+.fleet
+.idea
+.nova
+.vscode
+.zed
+.cursor
+.windsurf
+.history
+.cache
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs, dumps, and machine-local Compose overrides
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.sql.gz
+*.dump
+*.backup
+compose.override.yml
+compose.override.yaml
+docker-compose.override.yml
+docker-compose.override.yaml
